@@ -1,0 +1,123 @@
+10
+
+dir
+1040
+https://xp-dev.com/svn/EDICOM
+https://xp-dev.com/svn/EDICOM
+
+
+
+2020-01-22T16:00:35.398537Z
+1040
+lahlouint
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c9b81487-684c-44c4-a2cc-ac3611d502f2
+
+admins
+dir
+
+web
+dir
+
+test
+dir
+
+log
+dir
+
+plugins
+dir
+
+apps
+dir
+
+cache
+dir
+
+.project
+file
+
+
+
+
+2017-05-31T08:45:22.943162Z
+818d87eb781502b2dc8a2cc4afa14e5a
+2017-01-28T21:10:54.268795Z
+20
+lahlouint
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+199
+
+symfony
+file
+
+
+
+
+2017-05-31T08:45:22.943162Z
+ec0244c82ba8f52899e48b4e473f78e8
+2017-01-28T21:10:13.719293Z
+19
+lahlouint
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+446
+
+config
+dir
+
+lib
+dir
+

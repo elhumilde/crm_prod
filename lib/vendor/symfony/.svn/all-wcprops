@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/README
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/LICENSE
+END
+package.xml.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/package.xml.tmpl
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/CHANGELOG
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/COPYRIGHT
+END

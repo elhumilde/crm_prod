@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Parser
+END
+Yml.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Parser/Yml.php
+END
+Serialize.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Parser/Serialize.php
+END
+Json.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Parser/Json.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Parser/Exception.php
+END
+Xml.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Parser/Xml.php
+END

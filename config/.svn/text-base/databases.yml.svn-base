@@ -1,0 +1,21 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/07-Databases
+
+all:
+
+
+  crm:
+    class: sfDoctrineDatabase
+    param:
+      dsn:      'mysql:host=127.0.0.1;dbname=CRM_EDICOM'
+      username: root
+      password: 123
+
+
+  bd_web:
+    class: sfDoctrineDatabase
+    param:
+      dsn:      'mysql:host=127.0.0.1;dbname=BD_EDICOM'
+      username: root
+      password: 123
+

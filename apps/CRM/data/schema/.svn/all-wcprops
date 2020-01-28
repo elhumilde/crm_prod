@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/EDICOM/!svn/ver/1026/apps/CRM/data/schema
+END
+tdb.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/EDICOM/!svn/ver/250/apps/CRM/data/schema/tdb.yml
+END
+schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/EDICOM/!svn/ver/1026/apps/CRM/data/schema/schema.yml
+END
+schema2.yml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/EDICOM/!svn/ver/926/apps/CRM/data/schema/schema2.yml
+END

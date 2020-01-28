@@ -1,0 +1,59 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+
+default:
+  http_metas:
+    content-type: text/html;charset=UTF-8
+
+  metas:
+    title: CRM EDICOM
+    description: CRM EDICOM
+    language: fr
+    #robots:       index, follow
+
+  stylesheets:
+    - theme_limitless/google.css
+    - theme_limitless/icons/icomoon/styles.css
+    - theme_limitless/bootstrap.css
+    - theme_limitless/core.css
+    - theme_limitless/components.css
+    - theme_limitless/colors.css
+    - theme_limitless/main.css
+    - theme_limitless/style.css
+
+
+  
+  javascripts:
+    - http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCGKzvMhYdksA_GltyggA7RftPYZW75gjw
+    - theme_limitless/plugins/loaders/pace.min.js
+    - theme_limitless/core/libraries/jquery.min.js
+    - theme_limitless/core/libraries/jquery_ui/full.min.js
+    - theme_limitless/core/libraries/bootstrap.min.js
+    - theme_limitless/plugins/loaders/blockui.min.js
+    - theme_limitless/plugins/forms/selects/select2.min.js  
+    - theme_limitless/plugins/forms/styling/uniform.min.js
+    - theme_limitless/plugins/forms/validation/validate.min.js
+    - theme_limitless/plugins/forms/mask/mask.js    
+    - theme_limitless/plugins/tables/datatables/datatables.min.js
+    - theme_limitless/pages/form_layouts.js
+    - theme_limitless/core/libraries/jquery_ui/widgets.min.js
+    - theme_limitless/plugins/notifications/pnotify.min.js
+    - theme_limitless/plugins/forms/selects/bootstrap_multiselect.js
+    - theme_limitless/pages/form_multiselect.js
+    - theme_limitless/plugins/notifications/sweet_alert.min.js
+    - theme_limitless/core/app.js
+    - theme_limitless/pages/jqueryui_forms.js
+    - theme_limitless/pages/components_modals.js
+    - theme_limitless/pages/form_mask.js
+    - theme_limitless/common.js
+    - depend.js
+    - common_new.js
+    - jquery.dataTables.editable_new.js
+    - jquery.jeditable.js
+    - jquery.validate.js
+    - ZeroClipboard.js
+    - jqueryTable.js
+    
+  has_layout:     true
+  layout:         layout

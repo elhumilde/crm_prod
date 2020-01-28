@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/skeleton/app/app/config
+END
+app.yml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/skeleton/app/app/config/app.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/skeleton/app/app/config/settings.yml
+END
+cache.yml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/skeleton/app/app/config/cache.yml
+END
+ApplicationConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/skeleton/app/app/config/ApplicationConfiguration.class.php
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/skeleton/app/app/config/routing.yml
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/skeleton/app/app/config/security.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/skeleton/app/app/config/filters.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/skeleton/app/app/config/view.yml
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/skeleton/app/app/config/factories.yml
+END

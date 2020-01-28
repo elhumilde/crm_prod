@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/template/templates
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/template/templates/editSuccess.php
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/template/templates/indexSuccess.php
+END
+_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/template/templates/_form.php
+END
+newSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/template/templates/newSuccess.php
+END
+showSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/template/templates/showSuccess.php
+END

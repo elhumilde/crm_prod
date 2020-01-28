@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/data
+END
+linked_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/data/linked_schema.yml
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/EDICOM/!svn/ver/1040/apps/CRM/modules/Reporting/templates
+END
+_televente.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/EDICOM/!svn/ver/1040/apps/CRM/modules/Reporting/templates/_televente.php
+END
+DetailSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/EDICOM/!svn/ver/979/apps/CRM/modules/Reporting/templates/DetailSuccess.php
+END
+evolutionClientSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/EDICOM/!svn/ver/478/apps/CRM/modules/Reporting/templates/evolutionClientSuccess.php
+END
+suiviremSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/EDICOM/!svn/ver/770/apps/CRM/modules/Reporting/templates/suiviremSuccess.php
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/EDICOM/!svn/ver/1039/apps/CRM/modules/Reporting/templates/indexSuccess.php
+END
+renouvellementCommandeSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/EDICOM/!svn/ver/1039/apps/CRM/modules/Reporting/templates/renouvellementCommandeSuccess.php
+END
+activiteCommercialeSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/EDICOM/!svn/ver/1039/apps/CRM/modules/Reporting/templates/activiteCommercialeSuccess.php
+END

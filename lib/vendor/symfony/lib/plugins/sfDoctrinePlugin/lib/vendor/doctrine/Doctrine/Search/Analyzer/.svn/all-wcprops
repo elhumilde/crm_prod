@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search/Analyzer
+END
+Utf8.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search/Analyzer/Utf8.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search/Analyzer/Exception.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search/Analyzer/Interface.php
+END
+Standard.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search/Analyzer/Standard.php
+END

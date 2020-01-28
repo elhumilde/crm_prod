@@ -1,0 +1,648 @@
+   
+# les habiltations des utilisateurs
+
+      
+tts_tracabilite:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true
+    id_user:
+      type: int
+      notnull: true
+    date:
+      type: date
+      notnull: true
+    heure:
+      type: time
+      notnull: true
+    operation:
+      type: nvarchar(200)
+      notnull: true
+    module:
+      type: nvarchar(200)
+      notnull: true
+    code:
+      type: nvarchar(200)
+      notnull: true
+    adresse_ip:
+      type: nvarchar(20)
+    machine:
+      type: nvarchar(200)
+
+
+tts_utilisateur_fonction:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true
+    fonction:
+      type: nvarchar(200)
+      notnull: true
+      
+tts_utilisateur:      
+  columns:
+    id:
+      type: int
+      autoincrement: true 
+      primary: true
+    login:
+      type: nvarchar(100) 
+      notnull: true 
+    nom:
+      type: nvarchar(100)
+      notnull: true  
+      index: true
+    prenom:
+      type: nvarchar(100)
+      notnull: true
+      index: true
+    email:
+      type: nvarchar(100)
+      notnull: true
+    tel:
+      type: nvarchar(100)
+    gsm:
+      type: nvarchar(100)
+    pwd:
+      type: nvarchar(100)
+      notnull: true
+    actif:
+      type: int
+    date_creation:
+      type: date
+    date_modif:
+      type: date
+    is_commercial:
+      type: int
+    id_service:
+      type: int
+    id_groupe:
+      type: int
+    code_commercial:
+      type: nvarchar(300)
+      notnull: true
+    code_commande:
+      type: nvarchar(30)
+tts_historique_connexion:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true   
+    login:
+      type: nvarchar(100)
+    date_connexion:
+      type: date
+    resultat:
+      type: int
+tts_utilisateur_affecte:
+  columns:
+    id:
+      type: int
+      autoincrement: true 
+      primary: true
+    id_utilisateur:
+      type: int
+      notnull: true
+      foreign: tts_utilisateur(id)
+    id_utilisateur_affecte:
+      type: int
+      notnull: true
+      foreign: tts_utilisateur(id)
+      
+tts_habilitation_utilisateur:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true   
+    id_utilisateur:
+      type: int
+      notnull: true
+      foreign: tts_utilisateur(id)
+    id_habilitation_profil:
+      type: int 
+      notnull: true   
+      foreign: tts_habilitation_profil(id)
+tts_habilitation_profil:  
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true  
+    profil:
+      type: nvarchar(50)
+      notnull: true
+      index: true
+    description:
+      type: nvarchar(500)  
+  
+tts_habilitation_action:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true  
+    module:
+      type: nvarchar(50)
+      notnull: true
+    action: 
+      type: nvarchar(50)
+      notnull: true
+    description:
+      type: nvarchar(500) 
+      notnull: true
+  
+tts_habilitation: 
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    id_habilitation_profil:
+      type: int
+      notnull: true
+      foreign: tts_habilitation_profil(id)
+    id_habilitation_action:
+      type: int
+      notnull: true
+      foreign: tts_habilitation_action(id)
+tts_firme_ajoute:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme:
+      type: nvarchar(300)
+      notnull: true
+      index: true
+    rs_comp:
+      type: nvarchar(300)
+    synchronise:
+      type: int
+    date_synchronise:
+      type: date
+    date_creation:
+      type: date
+      notnull: true
+      index: true
+
+tts_personne_ajout:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_personne:
+      type: nvarchar(300)
+      notnull: true
+      index: true
+    
+    
+tts_opportunite: 
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_zone:
+      type: nvarchar(300)
+      notnull: true
+    code_firme:
+      type: nvarchar(300)
+      notnull: true
+      index: true
+    code_contact:
+      type: nvarchar(300)
+      notnull: true
+    id_contact_responsable:
+      type: int
+    id_type_opportunite:
+      type: int
+      notnull: true
+      foreign: par_tts_opportunite_type(id)
+    id_statut_opportunite:
+      type: int
+      notnull: true
+      foreign: par_tts_opportunite_statut(id)
+      index: true
+    date_creation:
+      type: date
+      notnull: true
+      index: true
+    date_echeance:
+      type: date
+    montant_probable:
+      type: decimal(18,2)
+    pourcentage_reussite:
+      type: decimal(18,2)
+    code:
+      type: nvarchar(50)
+      notnull: true
+      index: true
+    id_createur:
+      type: int
+      notnull: true
+      foreign: tts_utilisateur(id)
+    code_commercial:
+      type: nvarchar(300)
+      notnull: true
+      index: true
+    objet:
+      type: nvarchar(1000)
+    titre:
+      type: nvarchar(100)
+      notnull: true
+    id_visite:
+      type: int
+      foreign: tts_visites_realisees(id)
+
+par_tts_civilite:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    libelle:
+      type: varchar(50)
+      notnull: true
+par_tts_service:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    libelle:
+      type: varchar(50)
+      notnull: true      
+
+par_tts_groupe:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    libelle:
+      type: varchar(50)
+      notnull: true  
+     
+par_tts_raison:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    libelle:
+      type: varchar(50)
+      notnull: true 
+     
+par_tts_type_reclamation:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    type_reclamation:
+      type: varchar(50)
+      notnull: true
+ 
+par_tts_gravite_reclamation:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    libelle:
+      type: varchar(50)
+      notnull: true
+      
+par_tts_type_visite:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    libelle:
+      type: varchar(50)
+      notnull: true
+
+tts_compteur:
+  columns:
+    compteur:
+      type: nvarchar(100)
+      primary: true
+      notnull: true
+    n:
+      type: int
+      notnull: true
+    prefixe:
+      type: nvarchar(16)
+    suffixe:
+      type: nvarchar(50)
+    val_suffixe:
+      type: nvarchar(50)
+    longueur:
+      type: int
+      notnull: true
+    description: 
+      type: nvarchar(100)
+
+      
+par_tts_opportunite_statut:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true
+    statut:
+      type: varchar(255)
+      notnull: true 
+    
+        
+tts_reclamation: 
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    date_creation:
+      type: date
+      notnull: true
+    code:
+      type: nvarchar(50)
+      notnull: true
+      index: true
+    date_reclamation:
+      type: date 
+      notnull: true
+      index: true
+    id_type_reclamation:
+      type: int
+      notnull: true
+      index: true
+    id_gravite:
+      type: int
+      notnull: true
+      index: true
+    id_service:
+      type: int
+      notnull: true
+      index: true
+    code_zone:
+      type: nvarchar(300)
+    code_firme:
+      type: nvarchar(300)
+      notnull: true
+      index: true
+    code_contact:
+      type: nvarchar(300)
+      notnull: true
+      index: true
+    objet:
+      type: nvarchar(1000)
+      notnull: true 
+    description:
+      type: nvarchar(1000)
+      notnull: true 
+    id_createur:
+      type: int
+      index: true
+    action:
+      type: nvarchar(1000)
+    is_resolue:
+      type: int
+      index: true
+    date_resolution:
+      type: date
+     
+tts_decouverte: 
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    date_creation:
+      type: date
+      notnull: true
+    code_firme:
+      type: nvarchar(300)
+      notnull: true
+      index: true
+    activite:
+      type: nvarchar(1000)
+      notnull: true 
+    description:
+      type: nvarchar(1000)
+      notnull: true 
+    clients:
+      type: nvarchar(1000)
+      notnull: true 
+    travail:
+      type: nvarchar(1000)
+      notnull: true 
+    developper:
+      type: nvarchar(1000)
+      notnull: true  
+    id_createur:
+      type: int
+      index: true
+
+##################################### Commentaire ########################
+tts_commentaire: 
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    date_creation:
+      type: date
+      notnull: true
+    code_firme:
+      type: nvarchar(300)
+      notnull: true
+      index: true
+    commentaire:
+      type: nvarchar(1000)
+      notnull: true 
+    id_createur:
+      type: int
+      index: true
+
+##################################### PROSPECTION ########################
+tts_visites_planifiees:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true
+    date_visite:
+      type: date
+      notnull: true
+    commentaire:
+      type: nvarchar(1000)
+    code_firme:
+      type: nvarchar(300)
+      notnull: true
+      index: true
+    code_contact:
+      type: nvarchar(300)
+      notnull: true
+    id_utilisateur:
+      type: int
+      notnull: true
+    actif:
+      type: bit
+      notnull: true 
+    heure_visite:
+      type: nvarchar(200)
+      notnull: true
+    realise:
+      type: int
+      notnull: true
+    id_type_visite:
+      type: int
+      notnull: true
+    date_creation:
+      type: date
+    id_opportunite:
+      type: int
+    id_devis:
+      type: int
+    besoin_identifie:
+      type: int
+      
+tts_visites_realisees:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true
+    date_visite:
+      type: date
+      notnull: true 
+      index: true
+    heure_visite:
+      type: nvarchar(255)
+      notnull: true
+      index: true
+    rapport_visite:
+      type: text
+    code_zone:
+      type: nvarchar(300)
+      notnull: true
+    code_firme:
+      type: nvarchar(300)
+      notnull: true
+      index: true
+    id_utilisateur:
+      type: int
+      notnull: true
+      foreign: tts_utilisateur(id)
+    id_visite_planifiee:
+      type: int
+    actif:
+      type: bit
+      notnull: true
+    id_type_visite:
+      type: int   
+      notnull: true
+      foreign: par_tts_type_visite(id)
+      index: true
+    date_prochainev: 
+      type: date 
+    date_creation:
+      type: date
+    id_opportunite:
+      type: int
+      foreign: tts_opportunite(id)
+    code_contact:
+      type: nvarchar(300)
+      notnull: true
+    besoin_identifie:
+      type: int
+    nouv_opportunite:
+      type: int
+    id_resultat_visite:
+      type: int   
+      notnull: true
+      
+par_tts_opportunite_type:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    type:
+      type: nvarchar(100)
+      notnull: true
+
+      
+par_tts_visite_resultat:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    resultat:
+      type: nvarchar(100)
+      notnull: true
+
+tts_objectif:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    type:
+      type: nvarchar(100)
+      notnull: true
+    objectif:
+      type: nvarchar(100)
+      notnull: true
+      
+tts_historique_modification:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme:
+      type: nvarchar(300)
+      notnull: true 
+      index: true
+    old_value:
+      type: nvarchar(500)
+      notnull: true
+    new_value:
+      type: nvarchar(500)
+      notnull: true
+    champ:
+      type: nvarchar(500)
+      notnull: true
+    type_modification:
+      type: nvarchar(500)
+      notnull: true
+    id_utilisateur:
+      type: nvarchar(500)
+      notnull: true
+    date_modification:
+      type: date
+      notnull: true
+    synchronise:
+      type: int
+    date_synchronise:
+      type: date
+      
+par_etape_vente:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    libelle:
+      type: nvarchar(100)
+      notnull: true

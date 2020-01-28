@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/widget
+END
+sfWidgetFormDoctrineChoiceTTS.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/widget/sfWidgetFormDoctrineChoiceTTS.class.php
+END
+sfWidgetFormDoctrineChoice.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/widget/sfWidgetFormDoctrineChoice.class.php
+END

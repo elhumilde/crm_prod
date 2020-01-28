@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/EDICOM/!svn/ver/737/apps/CRM/modules/Administration/templates
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/EDICOM/!svn/ver/2/apps/CRM/modules/Administration/templates/indexSuccess.php
+END
+AjouterUserSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/EDICOM/!svn/ver/737/apps/CRM/modules/Administration/templates/AjouterUserSuccess.php
+END
+ProfilSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/EDICOM/!svn/ver/391/apps/CRM/modules/Administration/templates/ProfilSuccess.php
+END
+UtilisateursSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/EDICOM/!svn/ver/475/apps/CRM/modules/Administration/templates/UtilisateursSuccess.php
+END
+CouleurSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/EDICOM/!svn/ver/2/apps/CRM/modules/Administration/templates/CouleurSuccess.php
+END
+AjouterProfilSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/EDICOM/!svn/ver/383/apps/CRM/modules/Administration/templates/AjouterProfilSuccess.php
+END
+MonProfilSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/EDICOM/!svn/ver/376/apps/CRM/modules/Administration/templates/MonProfilSuccess.php
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/EDICOM/!svn/ver/14/web/js/theme_limitless/charts/d3/bars
+END
+bars_basic_horizontal.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/EDICOM/!svn/ver/14/web/js/theme_limitless/charts/d3/bars/bars_basic_horizontal.js
+END
+bars_basic_vertical.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/EDICOM/!svn/ver/14/web/js/theme_limitless/charts/d3/bars/bars_basic_vertical.js
+END
+bars_basic_tooltip.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/EDICOM/!svn/ver/14/web/js/theme_limitless/charts/d3/bars/bars_basic_tooltip.js
+END
+bars_advanced_simple_interaction.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/EDICOM/!svn/ver/14/web/js/theme_limitless/charts/d3/bars/bars_advanced_simple_interaction.js
+END
+bars_advanced_stacked_multiple.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/EDICOM/!svn/ver/14/web/js/theme_limitless/charts/d3/bars/bars_advanced_stacked_multiple.js
+END
+bars_basic_stacked.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/EDICOM/!svn/ver/14/web/js/theme_limitless/charts/d3/bars/bars_basic_stacked.js
+END
+bars_advanced_histogram.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/EDICOM/!svn/ver/14/web/js/theme_limitless/charts/d3/bars/bars_advanced_histogram.js
+END
+bars_advanced_hierarchical.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/EDICOM/!svn/ver/14/web/js/theme_limitless/charts/d3/bars/bars_advanced_hierarchical.js
+END
+bars_basic_stacked_normalized.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/EDICOM/!svn/ver/14/web/js/theme_limitless/charts/d3/bars/bars_basic_stacked_normalized.js
+END
+bars_basic_grouped.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/EDICOM/!svn/ver/14/web/js/theme_limitless/charts/d3/bars/bars_basic_grouped.js
+END
+bars_advanced_sortable_horizontal.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/EDICOM/!svn/ver/14/web/js/theme_limitless/charts/d3/bars/bars_advanced_sortable_horizontal.js
+END
+bars_advanced_sortable_vertical.js
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/EDICOM/!svn/ver/14/web/js/theme_limitless/charts/d3/bars/bars_advanced_sortable_vertical.js
+END

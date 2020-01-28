@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+
+default:
+
+
+  javascripts:
+    - theme_limitless/plugins/loaders/pace.min.js
+    - theme_limitless/core/libraries/jquery.min.js
+    - theme_limitless/core/libraries/bootstrap.min.js
+    - theme_limitless/plugins/loaders/blockui.min.js   
+    - theme_limitless/core/libraries/jquery_ui/full.min.js
+    - theme_limitless/plugins/forms/styling/uniform.min.js
+    - theme_limitless/plugins/tables/datatables/datatables.min.js
+    - theme_limitless/core/app.js
+    - theme_limitless/pages/form_inputs.js
+
+  has_layout:     true
+  layout:         homeLayout

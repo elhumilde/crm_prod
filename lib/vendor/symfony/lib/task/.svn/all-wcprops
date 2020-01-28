@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task
+END
+sfTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/sfTask.class.php
+END
+sfFilesystem.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/sfFilesystem.class.php
+END
+sfCommandApplicationTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/sfCommandApplicationTask.class.php
+END
+sfBaseTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/sfBaseTask.class.php
+END

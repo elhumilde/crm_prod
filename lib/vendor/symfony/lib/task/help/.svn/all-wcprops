@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/help
+END
+sfHelpTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/help/sfHelpTask.class.php
+END
+sfListTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/help/sfListTask.class.php
+END

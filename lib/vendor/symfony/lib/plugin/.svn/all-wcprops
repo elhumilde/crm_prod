@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin
+END
+sfPluginRestException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfPluginRestException.class.php
+END
+sfPearEnvironment.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfPearEnvironment.class.php
+END
+sfPluginDependencyException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfPluginDependencyException.class.php
+END
+sfPearConfig.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfPearConfig.class.php
+END
+sfPluginException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfPluginException.class.php
+END
+sfSymfonyPluginManager.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfSymfonyPluginManager.class.php
+END
+sfPearRestPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfPearRestPlugin.class.php
+END
+sfPluginRecursiveDependencyException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfPluginRecursiveDependencyException.class.php
+END
+sfPearRest.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfPearRest.class.php
+END
+sfPearDownloader.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfPearDownloader.class.php
+END
+sfPearFrontendPlugin.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfPearFrontendPlugin.class.php
+END
+sfPearRest10.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfPearRest10.class.php
+END
+sfPearRest11.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfPearRest11.class.php
+END
+sfPluginManager.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugin/sfPluginManager.class.php
+END

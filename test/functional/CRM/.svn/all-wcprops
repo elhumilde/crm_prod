@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/EDICOM/!svn/ver/6/test/functional/CRM
+END
+configurationActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/EDICOM/!svn/ver/6/test/functional/CRM/configurationActionsTest.php
+END
+dashboardActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/EDICOM/!svn/ver/6/test/functional/CRM/dashboardActionsTest.php
+END
+homeActionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/EDICOM/!svn/ver/6/test/functional/CRM/homeActionsTest.php
+END

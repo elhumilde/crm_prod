@@ -1,0 +1,288 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /homepage
+  param: { module: home, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+  
+Login:
+  url:   /
+  param: { module: home, action: index }
+  
+  
+dashboard:
+  url:   dashboard/
+  param: { module: dashboard, action: index }
+ 
+Get_Alerte:  
+  url:   /Alerte/AjaxgetAlerte
+  param: { module: Alerte, action: AjaxgetAlerte } 
+ 
+Detail:  
+  url:   /Alerte/Detail
+  param: { module: Alerte, action: Detail } 
+ 
+Initialiser:
+  url:   /Administration/Initialiser
+  param: { module: Administration, action: Initialiser }
+
+TableauBord:
+  url:   /TableauBord
+  param: { module: TableauBord, action: index }
+  
+AjouterUser:  
+  url:   /Administration/AjouterUser
+  param: { module: Administration, action: AjouterUser }
+  
+AjouterProfil:  
+  url:   /Administration/AjouterProfil
+  param: { module: Administration, action: AjouterProfil }
+  
+
+Profil:  
+  url:   /Administration/Profil
+  param: { module: Administration, action: Profil }
+  
+Utilisateurs:  
+  url:   /Administration/Utilisateurs
+  param: { module: Administration, action: Utilisateurs }
+  
+
+MonProfil:  
+  url:   /Administration/MonProfil
+  param: { module: Administration, action: MonProfil }  
+
+
+Couleur:  
+  url:   /Administration/Couleur
+  param: { module: Administration, action: Couleur }  
+
+
+### Referentiel ################################################
+   
+AjouterFirme:  
+  url:   /Firme/Ajouter
+  param: { module: Firme, action: Ajouter }
+
+UpdateOrdreChamp:  
+  url:   /Firme/UpdateOrdre
+  param: { module: Firme, action: UpdateOrdre }
+  
+  
+ConsulterFirme:  
+  url:   /Firme/Consulter
+  param: { module: Firme, action: Consulter }
+
+DetailSolde:  
+  url:   /Firme/Detailsolde
+  param: { module: Firme, action: Detailsolde }  
+  
+Detailbc:  
+  url:   /Firme/Detailbc
+  param: { module: Firme, action: Detailbc }  
+
+Detailproduction:  
+  url:   /Firme/Detailproduction
+  param: { module: Firme, action: Detailproduction }  
+  
+Historique:
+  url:     /Firme/Historique
+  param: { module: Firme, action: Historique }  
+
+Verifierpersonne:
+  url:     /Firme/Verifierpersonne
+  param: { module: Firme, action: Verifierpersonne }
+
+Verifiermarque:
+  url:     /Firme/Verifiermarque
+  param: { module: Firme, action: Verifiermarque }
+
+GetActMarque:
+  url:     /Firme/GetActMarque
+  param: { module: Firme, action: GetActMarque }
+
+Historique_modification:
+  url:     /Historique/index
+  param: { module: Historique, action: index }
+
+
+
+Modifier:
+  url:     /Firme/Modifier
+  param: { module: Firme, action: Modifier }
+  
+SupprimerFirme:  
+  url:   /Firme/Supprimer
+  param: { module: Firme, action: Supprimer }
+
+Supprimer_dirigeant:
+  url:   /Firme/Supprimer_dirigeant
+  param: { module: Firme, action: Supprimer_dirigeant }
+  
+Supprimer_Contact_Firme:
+  url:   /Firme/Supprimer_Contact
+  param: { module: Firme, action: Supprimer_Contact }
+
+Ajouter_Opportunite:
+  url:   /Opportunite/Ajouter
+  param: { module: Opportunite, action: Ajouter }
+
+SupprimerOpportunite:  
+  url:   /Opportunite/Supprimer
+  param: { module: Opportunite, action: Supprimer }
+### decouverte #####################################################
+AjouterDecouverte:  
+  url:   /Decouverte/Ajouter
+  param: { module: Decouverte, action: Ajouter }
+  
+SupprimerDecouverte:  
+  url:   /Decouverte/Supprimer
+  param: { module: Decouverte, action: Supprimer }
+### commentaire #####################################################
+Ajoutercommentaire:  
+  url:   /commentaire/Ajouter
+  param: { module: commentaire, action: Ajouter }
+  
+SupprimerCommentaire:  
+  url:   /commentaire/Supprimer
+  param: { module: commentaire, action: Supprimer }
+### tracabilite #####################################################
+NombreConnexion:  
+  url:   /Tracabilite/nombreConnexion
+  param: { module: Tracabilite, action: nombreConnexion }
+  
+DerniereAction:  
+  url:   /Tracabilite/derniereAction
+  param: { module: Tracabilite, action: derniereAction }
+
+Valide:
+  url:     /Tracabilite/valide
+  param: { module: Tracabilite, action: valide }
+
+Validation:
+  url:     /Tracabilite/validation
+  param: { module: Tracabilite, action: validation }
+### reclamation #####################################################
+AjouterReclamation:  
+  url:   /Reclamation/Ajouter
+  param: { module: Reclamation, action: Ajouter }
+  
+SupprimerReclamation:  
+  url:   /Reclamation/Supprimer
+  param: { module: Reclamation, action: Supprimer }
+  
+ResoluerReclamation:  
+  url:   /Reclamation/Resoluer
+  param: { module: Reclamation, action: Resoluer }
+### MAP #####################################################
+IndexMap:  
+  url:   /Map/Accueil
+  param: { module: Map, action: Accueil }   
+
+### Common #####################################################
+    
+PopupArticle:
+  url:   /Common/Article
+  param: { module: Common, action: Article }
+  
+setDependanceChoice :
+  url: /Common/setDependanceChoice
+  param: { module: Common, action: setDependanceChoice }
+
+getResQuery :
+  url: /Common/GetResQuery
+  param: { module: Common, action: GetResQuery }
+
+
+FindContact:
+  url:   /Common/FindContact
+  param: { module: Common, action: FindContact }
+
+AjouterContact:
+  url:   /Common/AjouterContact
+  param: { module: Common, action: AjouterContact }
+  
+### Parametrage ##################################################### 
+
+ParametrerTable:
+  url:   /Parametrage/parametrage
+  param: { module: Parametrage, action: parametrage}
+### Parametrage #####################################################   
+SupprimerVisiteEffectuee:  
+  url:   /visite_effectuee/Supprimer
+  param: { module: visite_effectuee, action: Supprimer }
+  
+ConsulterVisitesR:  
+  url:   /visite_effectuee/index
+  param: { module: visite_effectuee, action: index }
+
+AjouterVisitesR:  
+  url:   /visite_effectuee/Ajouter
+  param: { module: visite_effectuee, action: Ajouter }
+  
+Calendar:
+  url:   /visite_effectuee/calendar
+  param: { module: visite_effectuee, action: calendar }
+  
+ConsulterVisitesP:  
+  url:   /visite_planifiee/index
+  param: { module: visite_planifiee, action: index }
+  
+AjouterVisitesP:  
+  url:   /visite_planifiee/Ajouter
+  param: { module: visite_planifiee, action: Ajouter }
+  
+Ajouterdecouverte:  
+  url:   /decouverte/Ajouter
+  param: { module: decouverte, action: Ajouter }
+  
+activiteCommerciale:  
+  url:   /Reporting/activiteCommerciale
+  param: { module: Reporting, action: activiteCommerciale }  
+  
+suivirem:  
+  url:   /Reporting/suivirem
+  param: { module: Reporting, action: suivirem }  
+  
+Objectif:  
+  url:   /Objectif/index
+  param: { module: Objectif, action: index }
+
+### Recouvrement ################################################
+ConsulterRecouvrement:  
+  url:   /recouvrement/consulter
+  param: { module: recouvrement, action: consulter }
+
+DetailRecouvrement:  
+  url:   /recouvrement/Detail
+  param: { module: recouvrement, action: Detail }
+
+SuiviAgent:  
+  url:   /recouvrement/suiviagent
+  param: { module: recouvrement, action: suiviagent }
+
+SuiviResultat:  
+  url:   /recouvrement/suiviresultat
+  param: { module: recouvrement, action: suiviresultat }
+
+### Televente ################################################
+televente:
+  url:     /televente/index
+  param: { module: televente, action: index }
+ConsulterTelevente:  
+  url:   /televente/consulter
+  param: { module: televente, action: consulter }
+
+SuiviTelevente:  
+  url:   /televente/suivitelevente
+  param: { module: televente, action: suivitelevente }

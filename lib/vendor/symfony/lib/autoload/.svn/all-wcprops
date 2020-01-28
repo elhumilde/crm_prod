@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/autoload
+END
+sfSimpleAutoload.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/autoload/sfSimpleAutoload.class.php
+END
+sfAutoload.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/autoload/sfAutoload.class.php
+END
+sfAutoloadAgain.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/autoload/sfAutoloadAgain.class.php
+END
+sfCoreAutoload.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/autoload/sfCoreAutoload.class.php
+END

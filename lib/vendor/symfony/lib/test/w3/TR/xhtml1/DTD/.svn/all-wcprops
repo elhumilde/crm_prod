@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/test/w3/TR/xhtml1/DTD
+END
+xhtml-symbol.ent
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/test/w3/TR/xhtml1/DTD/xhtml-symbol.ent
+END
+xhtml1-frameset.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/test/w3/TR/xhtml1/DTD/xhtml1-frameset.dtd
+END
+xhtml1-transitional.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/test/w3/TR/xhtml1/DTD/xhtml1-transitional.dtd
+END
+xhtml1-strict.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/test/w3/TR/xhtml1/DTD/xhtml1-strict.dtd
+END
+xhtml-special.ent
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/test/w3/TR/xhtml1/DTD/xhtml-special.ent
+END
+xhtml-lat1.ent
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/test/w3/TR/xhtml1/DTD/xhtml-lat1.ent
+END

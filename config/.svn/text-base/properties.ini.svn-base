@@ -1,0 +1,3 @@
+[symfony]
+  name=CRM  author=TechTrend Solutions
+  orm=Doctrine

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/config/config
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/config/config/view.yml
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/config/config/factories.yml
+END
+core_compile.yml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/config/config/core_compile.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/config/config/settings.yml
+END
+config_handlers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/config/config/config_handlers.yml
+END
+module.yml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/config/config/module.yml
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/config/config/security.yml
+END
+autoload.yml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/config/config/autoload.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/config/config/filters.yml
+END

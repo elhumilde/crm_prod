@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/parts
+END
+editAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/parts/editAction.php
+END
+indexAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/parts/indexAction.php
+END
+newAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/parts/newAction.php
+END
+showAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/parts/showAction.php
+END
+deleteAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/parts/deleteAction.php
+END
+processFormAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/parts/processFormAction.php
+END
+updateAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/parts/updateAction.php
+END
+createAction.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineModule/default/parts/createAction.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/unit
+END
+sfDoctrineColumnTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/unit/sfDoctrineColumnTest.php
+END
+autoloaderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/unit/autoloaderTest.php
+END
+sfDoctrineDatabaseTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/unit/sfDoctrineDatabaseTest.php
+END

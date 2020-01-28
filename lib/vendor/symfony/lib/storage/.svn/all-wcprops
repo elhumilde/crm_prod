@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/storage
+END
+sfPDOSessionStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/storage/sfPDOSessionStorage.class.php
+END
+sfCacheSessionStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/storage/sfCacheSessionStorage.class.php
+END
+sfPostgreSQLSessionStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/storage/sfPostgreSQLSessionStorage.class.php
+END
+sfDatabaseSessionStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/storage/sfDatabaseSessionStorage.class.php
+END
+sfMySQLSessionStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/storage/sfMySQLSessionStorage.class.php
+END
+sfNoStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/storage/sfNoStorage.class.php
+END
+sfStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/storage/sfStorage.class.php
+END
+sfMySQLiSessionStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/storage/sfMySQLiSessionStorage.class.php
+END
+sfSessionStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php
+END
+sfSessionTestStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/storage/sfSessionTestStorage.class.php
+END

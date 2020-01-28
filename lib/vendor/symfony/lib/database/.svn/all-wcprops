@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/database
+END
+sfMySQLDatabase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/database/sfMySQLDatabase.class.php
+END
+sfDatabaseManager.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/database/sfDatabaseManager.class.php
+END
+sfMySQLiDatabase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/database/sfMySQLiDatabase.class.php
+END
+sfDatabase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/database/sfDatabase.class.php
+END
+sfPDODatabase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/database/sfPDODatabase.class.php
+END
+sfPostgreSQLDatabase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/database/sfPostgreSQLDatabase.class.php
+END

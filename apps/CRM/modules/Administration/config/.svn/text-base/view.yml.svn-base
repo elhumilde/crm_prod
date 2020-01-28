@@ -1,0 +1,42 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+
+default:
+  http_metas:
+    content-type: text/html;charset=UTF-8
+
+  metas:
+    title: ERP
+    description: ERP
+    language: fr
+    #robots:       index, follow
+
+ 
+  javascripts:
+    - theme_limitless/plugins/loaders/pace.min.js
+    - theme_limitless/core/libraries/jquery.min.js
+    - theme_limitless/core/libraries/bootstrap.min.js
+    - theme_limitless/plugins/loaders/blockui.min.js
+    - theme_limitless/plugins/forms/selects/select2.min.js	
+    - theme_limitless/plugins/forms/styling/uniform.min.js
+    - theme_limitless/plugins/tables/datatables/datatables.js
+    - theme_limitless/pages/form_layouts.js
+    - theme_limitless/plugins/ui/moment/moment.min.js
+    - theme_limitless/plugins/pickers/daterangepicker.js
+    - theme_limitless/plugins/pickers/anytime.min.js
+    - theme_limitless/plugins/pickers/pickadate/picker.js
+    - theme_limitless/plugins/pickers/pickadate/picker.date.js
+    - theme_limitless/plugins/pickers/pickadate/picker.time.js
+    - theme_limitless/plugins/pickers/pickadate/legacy.js
+    - theme_limitless/plugins/forms/styling/uniform.min.js
+    - theme_limitless/plugins/notifications/pnotify.min.js
+    - theme_limitless/plugins/forms/selects/bootstrap_multiselect.js
+    - theme_limitless/pages/picker_date.js
+    - theme_limitless/pages/form_multiselect.js
+    - theme_limitless/core/app.js
+    - theme_limitless/common.js
+    
+    
+  has_layout:     true
+  layout:         layout

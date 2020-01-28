@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/dependency_maps
+END
+cache_deps.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/dependency_maps/cache_deps.php
+END
+mime_deps.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/dependency_maps/mime_deps.php
+END
+transport_deps.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/dependency_maps/transport_deps.php
+END

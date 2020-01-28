@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/CharacterReader
+END
+Utf8Reader.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/CharacterReader/Utf8Reader.php
+END
+GenericFixedWidthReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/CharacterReader/GenericFixedWidthReader.php
+END
+UsAsciiReader.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/CharacterReader/UsAsciiReader.php
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/backend/config
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/backend/config/routing.yml
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/backend/config/security.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/backend/config/filters.yml
+END
+backendConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/backend/config/backendConfiguration.class.php
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/backend/config/view.yml
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/backend/config/factories.yml
+END
+app.yml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/backend/config/app.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/backend/config/settings.yml
+END
+cache.yml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/backend/config/cache.yml
+END

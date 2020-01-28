@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/project
+END
+sfProjectOptimizeTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/project/sfProjectOptimizeTask.class.php
+END
+sfProjectDisableTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/project/sfProjectDisableTask.class.php
+END
+sfProjectSendEmailsTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/project/sfProjectSendEmailsTask.class.php
+END
+sfProjectEnableTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/project/sfProjectEnableTask.class.php
+END
+sfProjectValidateTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/project/sfProjectValidateTask.class.php
+END
+sfProjectPermissionsTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/project/sfProjectPermissionsTask.class.php
+END
+sfProjectDeployTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/project/sfProjectDeployTask.class.php
+END
+sfProjectClearControllersTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/project/sfProjectClearControllersTask.class.php
+END

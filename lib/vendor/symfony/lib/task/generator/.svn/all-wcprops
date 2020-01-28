@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator
+END
+sfGenerateAppTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/sfGenerateAppTask.class.php
+END
+sfGenerateTaskTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/sfGenerateTaskTask.class.php
+END
+sfGenerateModuleTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/sfGenerateModuleTask.class.php
+END
+sfGenerateProjectTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/sfGenerateProjectTask.class.php
+END
+sfGeneratorBaseTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/generator/sfGeneratorBaseTask.class.php
+END

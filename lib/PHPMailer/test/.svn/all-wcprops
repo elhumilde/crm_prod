@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer/test
+END
+phpmailerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer/test/phpmailerTest.php
+END
+testemail.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer/test/testemail.php
+END
+contents.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer/test/contents.html
+END
+test_callback.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer/test/test_callback.php
+END
+test.png
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer/test/test.png
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/EDICOM/!svn/ver/1011/apps/CRM/data/migration
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/EDICOM/!svn/ver/1011/apps/CRM/data/migration/index.php
+END
+test.sql
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/EDICOM/!svn/ver/193/apps/CRM/data/migration/test.sql
+END
+index2.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/EDICOM/!svn/ver/928/apps/CRM/data/migration/index2.php
+END

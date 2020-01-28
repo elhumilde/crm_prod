@@ -1,0 +1,1410 @@
+
+#################################### TELECONTACT ########################
+firmes:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme:
+      type: nvarchar(9)
+      notnull: true
+      index: true
+    date_creation:
+      type: date
+      notnull: true
+      index: true
+    code_fichier:
+      type: nvarchar(3)
+      index: true
+    code_statut:
+      type: nvarchar(1)
+      index: true
+    code_nature:
+      type: nvarchar(1)
+      index: true
+    comp_nature:
+      type: nvarchar(30) 
+    date_maj:
+      type: date 
+    rs_comp:
+      type: nvarchar(100)
+      index: true 
+    rs_courte:
+      type: char(35)
+    rs_tri:
+      type: char(20)
+    rs_abr:
+      type: nvarchar(35)
+      index: true
+    code_voie:
+      type: nvarchar(7)
+    lib_voie:
+      type: nvarchar(57)
+    comp_voie:
+      type: nvarchar(60)
+    num_voie:
+      type: nvarchar(5)
+    comp_num_voie:
+      type: nvarchar(1)
+    code_ville:
+      type: nvarchar(7)
+      index: true
+    bp:
+      type: nvarchar(6)
+    code_ville_bp:
+      type: nvarchar(7)
+      index: true
+    code_postal:
+      type: nvarchar(10)
+      index: true
+    code_arr:
+      type: nvarchar(3)
+    code_quart:
+      type: nvarchar(4)
+      index: true
+    zone_geo:
+      type: nvarchar(5)
+      index: true
+    ouv_matin:
+      type: nvarchar(5)
+    ferm_matin:
+      type: nvarchar(5)
+    ouv_soir:
+      type: nvarchar(5)
+    ferm_soir:
+      type: nvarchar(5)
+    longitude:
+      type: nvarchar(20)
+    latitude:
+      type: nvarchar(20)
+    rc:
+      type: nvarchar(20)
+    code_ville_rc:
+      type: nvarchar(7)
+    ref_ann_leg:
+      type: nvarchar(16)
+    ident_fisc:
+      type: nvarchar(14)
+    patente:
+      type: nvarchar(10)
+    code_forme_jur:
+      type: nvarchar(2)
+    annee_inscr:
+      type: int
+    cap:
+      type: int
+    date_cap:
+      type: date 
+    gamme_ca:
+      type: nvarchar(2)
+    ca:
+      type: int
+    eff_min:
+      type: int
+    eff_max:
+      type: int
+    nb_cadres:
+      type: int
+    sup:
+      type: int
+    sup_couv:
+      type: int
+    chef_file_banque:
+      type: nvarchar(2)
+    maj_n:
+      type: nvarchar(1)
+    maj_k:
+      type: nvarchar(1)
+    maj_f:
+      type: nvarchar(1)
+    maj_e:
+      type: nvarchar(1)
+    pub_n:
+      type: nvarchar(1)
+    pub_k:
+      type: nvarchar(1)
+    pub_f:
+      type: nvarchar(1)
+    pub_e:
+      type: nvarchar(1)
+    logo_d:
+      type: nvarchar(1)
+    logo_f:
+      type: nvarchar(1)
+    logo_n:
+      type: nvarchar(1)
+    logo_e:
+      type: nvarchar(1)
+    act_longue:
+      type: nvarchar(4000)
+    tp_40:
+      type: nvarchar(4000)
+    tp_45:
+      type: nvarchar(4000)
+    tp_48:
+      type: nvarchar(4000)
+    code_firme_mere:
+      type: char(9)
+    annonceur:
+      type: int      
+
+marque:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_marque:  
+      type: nvarchar(7)
+    nom_marque: 
+      type: nvarchar(40)
+      index: true
+    description:  
+      type: nvarchar(30)
+    code_pays:  
+      type: nvarchar(2)
+      
+act_marque:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme:  
+      type: nvarchar(9)
+      notnull: true 
+    code_marque:  
+      type: nvarchar(7)
+      notnull: true 
+    code_produit:  
+      type: nvarchar(7)
+      notnull: true
+    exportateur: 
+      type: nvarchar(1)
+    importateur: 
+      type: nvarchar(1)
+    fda: 
+      type: nvarchar(1)
+            
+
+lien_marque:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_marque:
+      type: nvarchar(7)
+      index: true
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+personne:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_personne:  
+      type: nvarchar(9)
+      index: true
+      index: true
+    sex:  
+      type: nvarchar(1)
+    civilite: 
+      type: nvarchar(2)
+      notnull: true 
+    nom:  
+      type: nvarchar(25)
+    prenom: 
+      type: nvarchar(25)
+
+civilite:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code:
+      type: nvarchar(25)
+    civilite: 
+      type: nvarchar(25)
+
+lien_dirigeant:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_personne:  
+      type: nvarchar(9)
+      index: true
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    code_fonction:  
+      type: nvarchar(4)
+      notnull: true 
+    comp_fonct:
+      type: char(30)
+    class_actif:
+      type: char(2) 
+    class_passif:
+      type: char(2)
+    email:
+      type: nvarchar(50)
+    tel_1:
+      type: nvarchar(15)
+    tel_2:
+      type: nvarchar(15)
+    fax:
+      type: nvarchar(15)
+
+lien_dirigeant_sec:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_personne:  
+      type: nvarchar(9)
+      index: true
+    code_firme: 
+      type: nvarchar(9)
+      index: true 
+    code_fonction:  
+      type: nvarchar(4)
+      notnull: true 
+
+fonction:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: nvarchar(4)
+      index: true
+    fonction:  
+      type: nvarchar(20)
+    famille:  
+      type: nvarchar(50)
+    tri_famille:  
+      type: nvarchar(50)
+
+lien_email:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    num_ordre:  
+      type: int
+    email:  
+      type: nvarchar(100)
+
+lien_web:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    num_ordre:  
+      type: int
+    web:  
+      type: nvarchar(100)
+
+lien_telephone:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    num_ordre:  
+      type: int
+    tel:  
+      type: nvarchar(15)
+    
+lien_fax:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    num_ordre:  
+      type: int
+    fax:  
+      type: nvarchar(15)
+    
+lien_portable:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    num_ordre:  
+      type: int
+    portable: 
+      type: nvarchar(15)
+    
+lien_produits_kompass:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true   
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    code_produit: 
+      type: nvarchar(7)
+      index: true
+    export: 
+      type: char(1)
+    import: 
+      type: char(1)
+    fda:  
+      type: nvarchar(1)
+
+lien_rubrique_telecontact:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true   
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    code_rubrique:  
+      type: nvarchar(7)
+      index: true
+    editable:  
+      type: nvarchar(7)
+      index: true
+
+lien_rubrique_internet:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true   
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    code_rubrique:  
+      type: nvarchar(7)
+      index: true
+    editable:  
+      type: nvarchar(7)
+      index: true
+
+produits_kompass:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_produit: 
+      type: nvarchar(7)
+    lib_produit:  
+      type: nvarchar(200)
+
+rubriques:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    Code_Rubrique:  
+        type: nvarchar(6)
+        index: true
+    Lib_Rubrique:  
+      type: nvarchar(80)
+
+fichier:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: nvarchar(3)
+      index: true
+    fichier:  
+      type: nvarchar(200)
+
+statuts:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: nvarchar(1)
+      index: true
+    status:  
+      type: nvarchar(50)
+
+natures:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: nvarchar(6)
+      index: true
+    nature:  
+      type: nvarchar(50)
+
+villes:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: nvarchar(6)
+      index: true
+    ville:  
+      type: nvarchar(30)
+
+arrondissements:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: int
+      index: true
+    arrondissement:  
+      type: nvarchar(100)
+
+quartiers:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: int
+      index: true
+    quartier:  
+      type: nvarchar(30)
+
+formes_juridiques:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: nvarchar(2)
+      index: true
+    forme_jur:  
+      type: nvarchar(100)
+
+banques:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: nvarchar(2)
+      index: true
+    banque:  
+      type: nvarchar(30)
+
+bon_commande:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    num_bc:  
+      type: int
+      index: true
+    num_facture:  
+      type: int
+    societe:  
+      type: int
+    edition:
+      type: int
+    support:
+      type: int
+    courtier:
+      type: nvarchar(30)
+    date_bc:
+      type: date
+      index: true
+    mt_ttc:
+      type: decimal(18,2)
+    reglem_ttc:
+      type: decimal(18,2)
+    avocat:
+      type: int
+    date_facture:
+      type: date
+    signataire:
+      type: nvarchar(50)
+      
+bon_commande_prev:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    num_bc:  
+      type: int
+      index: true
+    societe:  
+      type: int
+    edition:
+      type: int
+    support:
+      type: int
+    date_prev:
+      type: date
+    montant:
+      type: float 
+    mode:
+      type: nvarchar(8)
+      
+            
+detail_bc:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    num_bc:  
+      type: int
+      index: true
+    societe:  
+      type: int
+    edition:
+      type: int
+    support:
+      type: int
+    code_produit:
+      type: nvarchar(55)
+    emplcement: 
+      type: nvarchar(55)
+    produit_papier: 
+      type: nvarchar(255)
+    produit_internet: 
+      type: nvarchar(55)
+    option_prod_internet: 
+      type: nvarchar(55)
+    date_fin:
+      type: date
+    module: 
+      type: nvarchar(255)
+    remise:
+      type: decimal(18,2)
+    prix_ht:
+      type: decimal(18,2) 
+evenement:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    service: 
+      type: nvarchar(55)
+      index: true
+    societe:  
+      type: int
+      index: true
+    edition:
+      type: int
+      index: true
+    support:
+      type: int
+      index: true
+    courtier:
+      type: nvarchar(30)
+      index: true
+    date_evennement:
+      type: date
+      index: true
+    resultat:
+      type: nvarchar(10)
+    date_resultat:
+      type: date
+    remarques:
+      type: nvarchar(255)
+    dossier:
+      type: nvarchar(255)
+
+societes:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: int
+      index: true
+    societe:  
+      type: nvarchar(30)
+
+support:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: int
+      index: true
+    support:  
+      type: nvarchar(30)
+    societe: 
+      type: int
+
+courtier:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: nvarchar(30)
+      index: true
+    nom_courtier:  
+      type: nvarchar(30)
+
+# televendeurs:
+#   columns:
+  id:
+      type: int
+      primary: true
+      autoincrement: true 
+#     code: 
+#       type: nvarchar(2)
+#     nom_televendeur:  
+#       type: nvarchar(30)
+
+# encaisseurs:
+#   columns:
+  id:
+      type: int
+      primary: true
+      autoincrement: true 
+#     code: 
+#       type: nvarchar(2)
+#     nom_encaisseur:  
+#       type: nvarchar(30)
+
+# operateurs:
+#   columns:
+  id:
+      type: int
+      primary: true
+      autoincrement: true 
+#     code: 
+#       type: nvarchar(2)
+#     nom_operateur:  
+#       type: nvarchar(30)
+
+# vendeurs:
+#   columns:
+  id:
+      type: int
+      primary: true
+      autoincrement: true 
+#     code: 
+#       type: nvarchar(2)
+#     nom_vendeur:  
+#       type: nvarchar(30)
+
+resultat_affectations:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: nvarchar(2)
+      index: true
+    libelle:  
+      type: nvarchar(30)
+
+resultat_televentes:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: nvarchar(10)
+      index: true
+    libelle:  
+      type: nvarchar(30)
+
+resultat_encaissements:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: nvarchar(10)
+      index: true
+    libelle:  
+      type: nvarchar(30)
+
+resultat_rdv:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code: 
+      type: nvarchar(10)
+      index: true
+    libelle:  
+      type: nvarchar(30)
+
+production:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    num_bc:  
+      type: int
+      index: true
+    societe:  
+      type: int
+      index: true
+    edition:
+      type: int
+      index: true
+    support:
+      type: int
+      index: true
+    num_ligne:
+      type: int
+    operateur: 
+      type: nvarchar(30)
+      index: true
+    date_operateur:
+      type: date
+      index: true
+    code_produit: 
+      type: nvarchar(2)
+    date_envoi_bat:
+      type: date
+    date_retour_bat:
+      type: date
+    moyen_envoi:
+      type: nvarchar(3)
+    resultat_bat:
+      type: nvarchar(55)
+detail_reglement:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    societe:  
+      type: int
+      index: true
+    num_bc:  
+      type: int
+      index: true
+    edition:
+      type: int
+    support:
+      type: int
+      index: true
+    num_reglem:  
+      type: int
+    num_facture:
+      type: int
+    mt_ttc:
+      type: decimal(18,2)
+    mode_reglem: 
+      type: nvarchar(55)
+    date_reg: 
+      type: date
+      index: true
+    date_valeur: 
+      type: date
+    date_encais: 
+      type: date
+    date_impaye:
+      type: date
+      index: true
+    impaye: 
+      type: nvarchar(55)
+      
+appel_recouvrement:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    societe:  
+      type: int
+      index: true
+    edition:
+      type: int
+      index: true
+    support:
+      type: int
+      index: true
+    num_bc:  
+      type: int
+      index: true      
+    operateur: 
+      type: nvarchar(30)
+      index: true
+    date_appel:
+      type: date
+      index: true
+    contact:
+      type: nvarchar(50)
+    fonction:
+      type: nvarchar(50)
+    observation:
+      type: nvarchar(200)
+    date_rappel:
+      type: date
+    resultat:
+      type: nvarchar(30)
+    dossier:  
+      type: int
+      
+      
+visite_recouvrement:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    societe:  
+      type: int
+      index: true
+    edition:
+      type: int
+      index: true
+    support:
+      type: int
+      index: true
+    num_bc:  
+      type: int
+      index: true      
+    operateur: 
+      type: nvarchar(30)
+      index: true
+    date_visite:
+      type: date
+      index: true
+    contact:
+      type: nvarchar(50)
+    fonction:
+      type: nvarchar(50)
+    observation:
+      type: nvarchar(200)
+    date_prochaine_visite:
+      type: date
+    resultat:
+      type: nvarchar(30)      
+    dossier:  
+      type: int
+      
+
+voie:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_voie:
+      type: nvarchar(6) 
+    libelle: 
+      type: nvarchar(50)
+    code_ville:
+      type: nvarchar(6) 
+    code_quartier:
+      type: nvarchar(4) 
+    code_arrondis:
+      type: int
+    code_zone:
+      type: nvarchar(4)                           
+      
+maj_firme:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true     
+    operateur: 
+      type: nvarchar(30)
+      index: true
+    date_info:
+      type: date
+      index: true
+    support:
+      type: nvarchar(30)
+      index: true
+    origine_info:
+      type: nvarchar(30)     
+    enqueteur: 
+      type: nvarchar(30)
+      index: true     
+    type: 
+      type: nvarchar(3)
+
+     
+salon:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    nom_salon:
+      type: nvarchar(50)
+      index: true
+    annee:
+      type: nvarchar(30)
+    exposant:
+      type: int
+    visiteur:
+      type: int      
+      
+      
+appel_televente:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    societe:  
+      type: int
+      index: true
+    edition:
+      type: int
+      index: true
+    support:
+      type: int
+      index: true      
+    operateur: 
+      type: nvarchar(30)
+      index: true
+    date_appel:
+      type: date
+      index: true
+    contact:
+      type: nvarchar(50)
+    fonction:
+      type: nvarchar(50)
+    observation:
+      type: nvarchar(200)
+    date_rappel:
+      type: date
+    appel_heure_rappel:
+      type: nvarchar(4)
+    resultat:
+      type: nvarchar(30)
+    lien_e_contact:
+      type: nvarchar(2550)
+    montant_devis:
+      type: float       
+    num_compagne:
+      type: int
+      
+tts_historique_modification:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme:
+      type: nvarchar(300)
+      notnull: true 
+      index: true 
+    code_element:
+      type: nvarchar(300)
+    old_value:
+      type: nvarchar(500)
+      notnull: true
+    new_value:
+      type: nvarchar(500)
+      notnull: true
+    champ:
+      type: nvarchar(500)
+      notnull: true
+    type_modification:
+      type: nvarchar(500)
+      notnull: true
+    id_utilisateur:
+      type: nvarchar(500)
+      notnull: true
+    date_modification:
+      type: date
+      notnull: true
+    synchronise:
+      type: int
+    date_synchronise:
+      type: date
+    table_bd:
+      type: nvarchar(300)
+    valide:
+      type: int
+    date_validation:
+      type: date
+    validateur:
+      type: int
+    raison_rejet:
+      type: nvarchar(25)
+    commentaire_rejet:
+      type: nvarchar(255)
+      
+tts_firme_ajoute:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme:
+      type: nvarchar(300)
+      notnull: true
+      index: true
+    rs_comp:
+      type: nvarchar(300)
+    synchronise:
+      type: int
+    date_synchronise:
+      type: date
+    id_utilisateur:
+      type: nvarchar(500)
+    date_creation:
+      type: date
+      notnull: true
+      index: true
+    valide:
+      type: int
+    date_validation:
+      type: date
+    validateur:
+      type: int
+    raison_rejet:
+      type: nvarchar(25)
+    commentaire_rejet:
+      type: nvarchar(255)
+
+tts_personne_ajout:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_personne:
+      type: nvarchar(300)
+      notnull: true
+      index: true
+    synchronise:
+      type: int
+    date_synchronise:
+      type: date
+    id_utilisateur:
+      type: nvarchar(500)
+    valide:
+      type: int
+    date_validation:
+      type: date
+    validateur:
+      type: int
+    raison_rejet:
+      type: nvarchar(25)
+    commentaire_rejet:
+      type: nvarchar(255)
+
+tts_marque_ajout:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_marque:
+      type: nvarchar(10)
+      notnull: true
+      index: true
+    synchronise:
+      type: int
+    date_synchronise:
+      type: date
+    id_utilisateur:
+      type: nvarchar(500)
+
+
+
+pays_export:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme:
+      type: nvarchar(9)
+      index: true
+    code_pays:
+      type: nvarchar(2)
+      index: true
+      
+pays:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_pays:
+      type: nvarchar(2)
+      index: true
+    pays:
+      type: nvarchar(50)
+      
+        
+affectation:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    code_firme: 
+      type: nvarchar(9)
+      index: true
+    societe:  
+      type: int
+      index: true
+    service: 
+      type: nvarchar(55)
+      index: true
+    edition:
+      type: int
+      index: true
+    support:
+      type: int
+      index: true
+    courtier:
+      type: nvarchar(30)
+      index: true
+    date_evennement:
+      type: date
+      index: true
+    num_compagne:
+      type: int
+    cloture:
+      type: int
+      
+        
+encaissement:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    CODE_OPERATION: 
+      type: int
+      index: true
+    NSTE:  
+      type: int
+      index: true
+    TEDI:
+      type: int
+      index: true
+    NEDI: 
+      type: nvarchar(55)
+      index: true
+    NORD:
+      type: int
+      index: true
+    CREP:
+      type: int
+      index: true
+    CFIR:
+      type: nvarchar(30)
+      index: true
+    NFACT:  
+      type: int
+    TTC:
+      type: decimal(18,2)
+    MTRG:
+      type: decimal(18,2)
+    SOLDE:
+      type: decimal(18,2)
+    CODE_TELEACTEUR:
+      type: nvarchar(30)
+      index: true
+    DATECR:
+      type: date
+      index: true
+    cloture:
+      type: int
+      
+         
+impayes:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true 
+    DOSSIER: 
+      type: int
+      index: true
+    DATECR:
+      type: date
+      index: true
+    NSTE:  
+      type: int
+      index: true
+    AGENT:  
+      type: int
+      index: true
+    NORD:
+      type: int
+      index: true
+    TEDI:
+      type: int
+      index: true
+    NEDI: 
+      type: nvarchar(55)
+      index: true
+    CFIR:
+      type: nvarchar(30)
+      index: true
+    CREP:
+      type: int
+      index: true
+    MTORD:
+      type: decimal(18,2)
+    MTREC:
+      type: decimal(18,2)
+    CUMREG:
+      type: decimal(18,2)
+    ECHFACT:  
+      type: date
+    NFACT:  
+      type: int
+    DFACT:  
+      type: date
+    DIMP:  
+      type: date
+    NATIMPAYE:
+      type: decimal(18,2)
+    CLOTURE:
+      type: decimal(18,2)
+
+appel_televente_etape:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true
+    id_appel:
+      type: int
+    id_etape:
+      type: int
+
+
+
+compagne:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true
+    num_compagne:
+      type: int
+    libelle:
+      type: text 
+    societe:  
+      type: int
+      index: true
+    edition:
+      type: int
+      index: true
+    support:
+      type: int
+      index: true
+    date_cloture:  
+      type: date     
+
+
+
+
+firme_certif:
+  columns:
+    id:
+      type: int
+      primary: true
+      autoincrement: true
+    PRODUIT:
+      type: nvarchar(30)
+    DESCRIPTIF_EXPIRATION:
+      type: nvarchar(30) 
+    NUM_CERTIFICATION:  
+      type: nvarchar(30)
+    CERT_EXPIRATION:
+      type: nvarchar(30)
+    AUT_CERTIFICATION:
+      type: nvarchar(30)
+    CERTIFICATION:  
+      type: nvarchar(30)    
+    CODE_FIRME:  
+      type: nvarchar(30)           

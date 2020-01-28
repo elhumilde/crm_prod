@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/form/addon
+END
+sfFormSymfony.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/form/addon/sfFormSymfony.class.php
+END
+sfFormFilter.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/form/addon/sfFormFilter.class.php
+END
+sfFormObject.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/form/addon/sfFormObject.class.php
+END

@@ -1,0 +1,41 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+
+default:
+  http_metas:
+    content-type: text/html;charset=UTF-8
+
+  metas:
+    title: ERP
+    description: ERP
+    language: fr
+    #robots:       index, follow
+
+ 
+  javascripts:
+    - theme_limitless/plugins/loaders/pace.min.js
+    - theme_limitless/core/libraries/jquery.min.js
+    - theme_limitless/core/libraries/jquery_ui/full.min.js
+    - theme_limitless/core/libraries/bootstrap.min.js
+    - theme_limitless/plugins/loaders/blockui.min.js
+    - theme_limitless/plugins/forms/selects/select2.min.js	
+    - theme_limitless/plugins/forms/styling/uniform.min.js
+    - theme_limitless/plugins/tables/datatables/datatables.min.js
+    - theme_limitless/pages/form_layouts.js
+    - theme_limitless/plugins/forms/styling/uniform.min.js
+    - theme_limitless/plugins/forms/selects/bootstrap_multiselect.js
+    - theme_limitless/core/app.js
+    - theme_limitless/common.js
+    - depend.js
+    - common_new.js
+    - jquery.dataTables.editable_new.js
+    - jquery.jeditable.js
+    - jquery.validate.js
+    - TableTools.js
+    - ZeroClipboard.js
+    - jqueryTable.js
+    - traiteTable.js
+    
+  has_layout:     true
+  layout:         layout

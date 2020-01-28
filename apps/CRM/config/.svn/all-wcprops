@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/EDICOM/!svn/ver/1028/apps/CRM/config
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/EDICOM/!svn/ver/1028/apps/CRM/config/routing.yml
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/EDICOM/!svn/ver/2/apps/CRM/config/security.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/EDICOM/!svn/ver/2/apps/CRM/config/filters.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/EDICOM/!svn/ver/512/apps/CRM/config/view.yml
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/EDICOM/!svn/ver/2/apps/CRM/config/factories.yml
+END
+app.yml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/EDICOM/!svn/ver/2/apps/CRM/config/app.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/EDICOM/!svn/ver/2/apps/CRM/config/settings.yml
+END
+CRMConfiguration.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/EDICOM/!svn/ver/2/apps/CRM/config/CRMConfiguration.class.php
+END
+cache.yml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/EDICOM/!svn/ver/442/apps/CRM/config/cache.yml
+END

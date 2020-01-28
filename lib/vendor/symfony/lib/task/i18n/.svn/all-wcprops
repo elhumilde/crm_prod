@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/i18n
+END
+sfI18nExtractTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/i18n/sfI18nExtractTask.class.php
+END
+sfI18nFindTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/task/i18n/sfI18nFindTask.class.php
+END

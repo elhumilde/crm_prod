@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/frontend/modules/attachment/templates
+END
+indexInput.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/frontend/modules/attachment/templates/indexInput.php
+END
+editableInput.php
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/frontend/modules/attachment/templates/editableInput.php
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/frontend/modules/attachment/templates/indexSuccess.php
+END
+editableSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/apps/frontend/modules/attachment/templates/editableSuccess.php
+END

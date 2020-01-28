@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/Encoder
+END
+QpEncoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/Encoder/QpEncoder.php
+END
+Rfc2231Encoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/Encoder/Rfc2231Encoder.php
+END
+Base64Encoder.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/Encoder/Base64Encoder.php
+END

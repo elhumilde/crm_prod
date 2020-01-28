@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/EDICOM/!svn/ver/848/apps/CRM/modules/Tracabilite/templates
+END
+validationSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/EDICOM/!svn/ver/793/apps/CRM/modules/Tracabilite/templates/validationSuccess.php
+END
+derniereActionSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/EDICOM/!svn/ver/413/apps/CRM/modules/Tracabilite/templates/derniereActionSuccess.php
+END
+rejeterSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/EDICOM/!svn/ver/623/apps/CRM/modules/Tracabilite/templates/rejeterSuccess.php
+END
+nombreConnexionSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/EDICOM/!svn/ver/479/apps/CRM/modules/Tracabilite/templates/nombreConnexionSuccess.php
+END
+valideSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/EDICOM/!svn/ver/848/apps/CRM/modules/Tracabilite/templates/valideSuccess.php
+END
+validerSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/EDICOM/!svn/ver/623/apps/CRM/modules/Tracabilite/templates/validerSuccess.php
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/EDICOM/!svn/ver/478/apps/CRM/modules/Tracabilite/templates/indexSuccess.php
+END

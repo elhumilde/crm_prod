@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/EDICOM/!svn/ver/1032/apps/CRM/modules/recouvrement/templates
+END
+consulterSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/EDICOM/!svn/ver/999/apps/CRM/modules/recouvrement/templates/consulterSuccess.php
+END
+suiviagentSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/EDICOM/!svn/ver/924/apps/CRM/modules/recouvrement/templates/suiviagentSuccess.php
+END
+detailSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/EDICOM/!svn/ver/1031/apps/CRM/modules/recouvrement/templates/detailSuccess.php
+END
+suiviresultatSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/EDICOM/!svn/ver/924/apps/CRM/modules/recouvrement/templates/suiviresultatSuccess.php
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/EDICOM/!svn/ver/1032/apps/CRM/modules/recouvrement/templates/indexSuccess.php
+END

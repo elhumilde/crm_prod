@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine
+END
+Record.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Record.php
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/File.php
+END
+I18n.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/I18n.php
+END
+Event.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Event.php
+END
+IntegrityMapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/IntegrityMapper.php
+END
+Transaction.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Transaction.php
+END
+Node.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Node.php
+END
+Builder.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Builder.php
+END
+Table.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php
+END
+Hydrator.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Hydrator.php
+END
+Parser.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Parser.php
+END
+Overloadable.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Overloadable.php
+END
+Configurable.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Configurable.php
+END
+Formatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Formatter.php
+END
+Cli.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Cli.php
+END
+AuditLog.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/AuditLog.php
+END
+RawSql.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/RawSql.php
+END
+Import.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Import.php
+END
+Null.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Null.php
+END
+Manager.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Manager.php
+END
+Template.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Template.php
+END
+DataDict.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/DataDict.php
+END
+Relation.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Relation.php
+END
+Util.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Util.php
+END
+Export.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Export.php
+END
+Inflector.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Inflector.php
+END
+Validator.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Validator.php
+END
+EventListener.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/EventListener.php
+END
+Core.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Core.php
+END
+Migration.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Migration.php
+END
+Collection.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Collection.php
+END
+Column.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Column.php
+END
+Pager.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Pager.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Exception.php
+END
+Connection.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Connection.php
+END
+Tree.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Tree.php
+END
+Expression.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Expression.php
+END
+Hook.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Hook.php
+END
+Access.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Access.php
+END
+Task.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Task.php
+END
+Locator.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Locator.php
+END
+Search.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Search.php
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Query.php
+END
+Lib.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Lib.php
+END
+Sequence.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Sequence.php
+END
+Data.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Data.php
+END
+View.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/View.php
+END
+Compiler.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Compiler.php
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/event_dispatcher
+END
+sfEventDispatcher.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/event_dispatcher/sfEventDispatcher.php
+END
+sfEvent.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/event_dispatcher/sfEvent.php
+END

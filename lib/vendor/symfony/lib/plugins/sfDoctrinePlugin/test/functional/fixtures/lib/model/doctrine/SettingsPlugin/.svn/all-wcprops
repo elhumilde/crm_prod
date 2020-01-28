@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/SettingsPlugin
+END
+SettingTable.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/SettingsPlugin/SettingTable.class.php
+END
+Setting.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/model/doctrine/SettingsPlugin/Setting.class.php
+END

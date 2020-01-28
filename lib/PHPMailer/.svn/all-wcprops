@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer/class.phpmailer.php
+END
+class.pop3.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer/class.pop3.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer/README
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer/class.smtp.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer/LICENSE
+END
+aboutus.html
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer/aboutus.html
+END
+changelog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/EDICOM/!svn/ver/4/lib/PHPMailer/changelog.txt
+END

@@ -1,0 +1,6 @@
+This directory will allow you to change Simple Hosting administration css stylesheet.
+
+First create simplehosting.css file in the customadmin directory.
+Then import the current css by adding: `@import "/css/screen-default.css";` then redefine all the css rules you need.
+
+You can also redefine the favicon.ico file by adding your own version to the customadmin directory.

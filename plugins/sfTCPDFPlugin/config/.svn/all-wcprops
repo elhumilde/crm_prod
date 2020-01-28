@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/EDICOM/!svn/ver/5/plugins/sfTCPDFPlugin/config
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/EDICOM/!svn/ver/5/plugins/sfTCPDFPlugin/config/routing.yml
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/EDICOM/!svn/ver/5/plugins/sfTCPDFPlugin/config/config.php
+END
+pdf_configs.yml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/EDICOM/!svn/ver/5/plugins/sfTCPDFPlugin/config/pdf_configs.yml
+END
+config_handlers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/EDICOM/!svn/ver/5/plugins/sfTCPDFPlugin/config/config_handlers.yml
+END

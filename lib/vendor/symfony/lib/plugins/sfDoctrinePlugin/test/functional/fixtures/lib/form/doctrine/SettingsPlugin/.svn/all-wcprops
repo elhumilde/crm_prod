@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/form/doctrine/SettingsPlugin
+END
+SettingForm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/form/doctrine/SettingsPlugin/SettingForm.class.php
+END

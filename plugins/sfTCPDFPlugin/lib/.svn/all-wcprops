@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/EDICOM/!svn/ver/5/plugins/sfTCPDFPlugin/lib
+END
+EBsfTCPDF.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/EDICOM/!svn/ver/5/plugins/sfTCPDFPlugin/lib/EBsfTCPDF.class.php
+END
+KsfTCPDF.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/EDICOM/!svn/ver/5/plugins/sfTCPDFPlugin/lib/KsfTCPDF.class.php
+END
+AOsfTCPDF.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/EDICOM/!svn/ver/5/plugins/sfTCPDFPlugin/lib/AOsfTCPDF.class.php
+END
+sfTCPDF.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/EDICOM/!svn/ver/5/plugins/sfTCPDFPlugin/lib/sfTCPDF.class.php
+END
+AsfTCPDF.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/EDICOM/!svn/ver/5/plugins/sfTCPDFPlugin/lib/AsfTCPDF.class.php
+END

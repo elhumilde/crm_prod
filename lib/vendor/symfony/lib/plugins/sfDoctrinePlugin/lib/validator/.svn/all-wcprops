@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/validator
+END
+sfValidatorDoctrineChoice.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/validator/sfValidatorDoctrineChoice.class.php
+END
+sfValidatorDoctrineUnique.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/validator/sfValidatorDoctrineUnique.class.php
+END

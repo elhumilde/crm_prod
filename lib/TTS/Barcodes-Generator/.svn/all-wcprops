@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/EDICOM/!svn/ver/4/lib/TTS/Barcodes-Generator
+END
+pdf417.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/EDICOM/!svn/ver/4/lib/TTS/Barcodes-Generator/pdf417.php
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/EDICOM/!svn/ver/4/lib/TTS/Barcodes-Generator/README.md
+END
+dinesh.png
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/EDICOM/!svn/ver/4/lib/TTS/Barcodes-Generator/dinesh.png
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/EDICOM/!svn/ver/4/lib/TTS/Barcodes-Generator/index.php
+END
+qrcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/EDICOM/!svn/ver/4/lib/TTS/Barcodes-Generator/qrcode.php
+END
+datamatrix.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/EDICOM/!svn/ver/4/lib/TTS/Barcodes-Generator/datamatrix.php
+END
+barcodes.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/EDICOM/!svn/ver/4/lib/TTS/Barcodes-Generator/barcodes.php
+END

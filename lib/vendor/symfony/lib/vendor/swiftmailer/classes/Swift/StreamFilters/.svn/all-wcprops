@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/StreamFilters
+END
+ByteArrayReplacementFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php
+END
+StringReplacementFilter.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/StreamFilters/StringReplacementFilter.php
+END
+StringReplacementFilterFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/EDICOM/!svn/ver/4/lib/vendor/symfony/lib/vendor/swiftmailer/classes/Swift/StreamFilters/StringReplacementFilterFactory.php
+END
